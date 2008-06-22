@@ -3,7 +3,7 @@
 
 ;; Author: Daniel Brockman <daniel@brockman.se>
 ;; URL: http://www.brockman.se/software/zenburn/zenburn.el
-;; Updated: 2008-06-22 13:58
+;; Updated: 2008-06-22 18:23
 
 ;; This file is free software; you can redistribute it and/or
 ;; modify it under the terms of the GNU General Public License as
@@ -782,6 +782,9 @@ static char *gnus-pointer[] = {
      '(tuareg-font-lock-operator
        ((t (:inherit font-lock-operator))))
 
+		 '(flymake-errline ((t (:underline "#cc9393"))))
+		 '(flymake-warnline ((t (:underline "#f0dfaf"))))
+		 
      '(w3m-form-button
        ((t (:inherit widget-button))))
      '(w3m-form-button-pressed
