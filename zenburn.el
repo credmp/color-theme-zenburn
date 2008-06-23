@@ -3,7 +3,7 @@
 
 ;; Author: Daniel Brockman <daniel@brockman.se>
 ;; URL: http://www.brockman.se/software/zenburn/zenburn.el
-;; Updated: 2008-06-22 18:23
+;; Updated: 2008-06-23 11:37
 
 ;; This file is free software; you can redistribute it and/or
 ;; modify it under the terms of the GNU General Public License as
@@ -676,6 +676,9 @@ static char *gnus-pointer[] = {
      '(jde-java-font-lock-link
        ((t (:inherit zenburn-primary-5 :underline t))))
 
+		 '(semantic-tag-boundary-face
+			 ((t (:overline "#d0bf8f"))))
+		 
      '(keywiz-right ((t (:inherit zenburn-primary-1))))
      '(keywiz-wrong ((t (:inherit font-lock-warning))))
      '(keywiz-command ((t (:inherit zenburn-primary-2))))
